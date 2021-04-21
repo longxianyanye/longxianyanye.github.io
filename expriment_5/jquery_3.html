@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="gb2312">
+<script src="jquery-3.6.0.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("#lbx").click(function(){
+    $("ol").append("<li>列表X</li>");
+  });
+});
+</script>
+</head>
+<ol>
+<li>列表1</li>
+<li>列表2</li>
+<li>列表3</li>
+</ol>
+<button id="lbx">追加列表项</button>
+</body>
+</html>
