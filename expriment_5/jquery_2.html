@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="gb2312">
+<script src="jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#hide").click(function(){
+  $("#p1").hide();
+  });
+  $("#show").click(function(){
+  $("#p1").show();
+  });
+});
+</script>
+</head>
+<body>
+<p id="p1">点击隐藏我会被隐藏</p>
+<p id="p2">点击显示上面的会显示</p>
+<button id="hide" type="button">隐藏</button>
+<button id="show" type="button">显示</button>
+</body>
+</html>
